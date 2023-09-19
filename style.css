@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 82px auto 0 auto;
+    width: 1140px;
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    grid-template-rows: 260px 260px;
+    column-gap: 60px;
+    row-gap: 60px;
+}
+
+.news-item img {
+    width: 100%;
+}
+
+.news-item .news-item__descr {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 16px;
+}
